@@ -1,0 +1,63 @@
+{
+    "title" : "Daily Log",
+    "author" : "Nick Cai <cndw2016@163.com>",
+    "description" : "Daily Log - 日常记录",
+    "language" : "zh-hans",
+    "root" : "./docs",
+    "links" : {
+        "sidebar" : {
+            "GitHub源码" : "https://github.com/nicksdream/dailylog"
+        }
+    },
+    "styles": {
+        "website": "styles/website.css",
+        "ebook": "styles/ebook.css",
+        "pdf": "styles/pdf.css",
+        "mobi": "styles/mobi.css",
+        "epub": "styles/epub.css"
+    },
+    "plugins": [
+        "-fontsettings",
+        "-lunr",
+        "-search",
+        "search-pro",
+        "-sharing",
+        "sharing-plus",
+        "back-to-top-button",
+        "copy-code-button",
+        "expandable-chapters-small",
+        "advanced-emoji",
+        "splitter",
+        "github",
+        "page-toc-button"
+    ],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/nicksdream/dailylog"
+        },
+        "sharing": {
+            "douban": false,
+            "facebook": false,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": false,
+            "messenger": false,
+            "pocket": false,
+            "qq": false,
+            "qzone": true,
+            "stumbleupon": false,
+            "twitter": false,
+            "viber": false,
+            "vk": false,
+            "weibo": true,
+            "whatsapp": false,
+            "all": [
+                "douban", "facebook", "hatenaBookmark", 
+                "instapaper", "linkedin","twitter", "weibo", 
+                "messenger","qq", "qzone","viber","vk","weibo",
+                "pocket", "stumbleupon","whatsapp"
+            ]
+       }
+    }
+}
