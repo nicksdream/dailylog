@@ -25,11 +25,8 @@
         "sharing-plus",
         "back-to-top-button",
         "copy-code-button",
-        "expandable-chapters-small",
-        "advanced-emoji",
         "splitter",
-        "github",
-        "page-toc-button"
+        "github"
     ],
     "pluginsConfig": {
         "github": {
