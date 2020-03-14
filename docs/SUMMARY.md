@@ -11,3 +11,4 @@
 
 * [React](favorite/react.md)
 * [React Native](favorite/react-native.md)
+* [Flutter](favorite/flutter.md)
